@@ -1,0 +1,21 @@
+Colecciones: Son agrupaciones de referencias.
+             Las coleccciones son objetos mutables, es decir, puede sacar y poner elementos.
+Todas las cosas que mutan a las listas se ejecutan enviando mensajes.
+
+las colecciones tipo:
+    -Lista: guardan el orden en que se agregan los elementos, y puede tener objetos repetidos
+    -Conjunto: No guarda el orden y no permite repetidos.
+
+
+Recorrer lista
+forEacha({el => accion a ejectuar}) = recorre la coleccion y ejecuta la accion que le paso por parametro una vez por cada elemento de la lista.
+
+metodos que entienden las colecciones:
+    * forEach.
+    * filter {el => accion a ejecutar}
+    * any {el => accion a ejecutar} da verdadero si alguno cumple con el criterio
+    * all {el => accion a ejecutar} da verdadero si todos complen con el criterio
+    * find {el => accion a ejecutar} devuelve el primer elemento que cumple con el criterio
+    *map {el => accion a ejecutar} devuelve una nueva lista con los elementos transformados
+// .even() devuelve los pares, not .even() devuelve impares.
+
